@@ -4,7 +4,7 @@ function ControlsLength({ breakLen, sessLen, updateLen }){
     return(
         <div id="controls-length">
             <div className="controls-length">
-                <p id="break-label">Break length</p>
+                <p id="break-label">break length</p>
                 <div>
                     <div id="break-decrement" className="arrow btn" onClick={updateLen}>&#8681;</div>
                     <div><span id="break-length">{breakLen}</span></div>
@@ -12,7 +12,7 @@ function ControlsLength({ breakLen, sessLen, updateLen }){
                 </div>
             </div>
             <div className="controls-length">
-                <p id="session-label">Session length</p>
+                <p id="session-label">session length</p>
                 <div>
                     <div id="session-decrement" className="arrow btn" onClick={updateLen}>&#8681;</div>
                     <div><span id="session-length">{sessLen}</span></div>
